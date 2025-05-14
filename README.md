@@ -11,17 +11,17 @@ This project is a FastAPI template with Google OAuth 2.0 integration for user au
 
 ## Installation
 1. Clone the repository:
-   ```bash
-    git clone https://github.com/yourusername/fastapi-google-oauth.git
-    cd fastapi-google-oauth
-   ```
+```bash
+git https://github.com/jamshid6573/FastApi-Template.git
+cd FastApi-Template
+```
 
 ## Create and activate a virtual environment:
-    ```bash
-    python3 -m venv venv
-    source venv/bin/activate
-    venv\Scripts\activate  
-    ```
+```bash
+python3 -m venv venv
+source venv/bin/activate
+venv\Scripts\activate  
+```
 
 ## Set up the database connection in the .env file:
 ``` bash
