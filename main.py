@@ -2,7 +2,6 @@ from contextlib import asynccontextmanager
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi import FastAPI
 from fastapi.staticfiles import StaticFiles
-import uvicorn
 from core.config import STATIC_DIR, STATIC_MOUNT_PATH, settings
 from core.models import Base, db_helper
 from admin.api.routes import router as admin_router
